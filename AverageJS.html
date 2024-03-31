@@ -1,0 +1,33 @@
+<!-- HTML program in order to find average of 5 numbers using JS. -->
+<html>
+    <head>
+        <title>My First average of numbers using JS</title>
+    </head>
+    <body>
+        Enter a <input id="a">
+        <br>
+        Enter b <input id="b">
+        <br>
+        Enter c <input id="c">
+        <br>
+        Enter d <input id="d">
+        <br>
+        Enter e <input id="e">
+        <br>
+        <Button onclick="average()">Average</Button>
+        <input id="f"> 
+        <script>
+            function average()
+            {
+                var s,t,u,v,w,x;
+                s=Number(document.getElementById("a").value);
+                t=Number(document.getElementById("b").value);
+                u=Number(document.getElementById("c").value);
+                v=Number(document.getElementById("d").value);
+                w=Number(document.getElementById("e").value);
+                x=(s+t+u+v+w)/5
+                document.getElementById("f").value=x
+            }
+        </script>      
+    </body>
+</html>
