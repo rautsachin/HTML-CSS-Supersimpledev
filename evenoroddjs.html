@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>My first Even or Odd determination using JS.</title>
+    </head>
+    <body>
+        Enter no: <input id="a">
+        <br>
+        <button onclick="Chk()">Check</button>
+        <p id="s"></p>
+        <script>
+         function Chk()
+         {
+            var x;
+            x=Number(document.getElementById("a").value);
+            if(x%2==0)
+            document.getElementById("s").innerHTML="Even";
+            else
+            document.getElementById("s").innerHTML="Odd";
+         }
+        </script>
+    </body>
+</html>
