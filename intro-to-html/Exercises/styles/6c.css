@@ -1,0 +1,28 @@
+p{
+  font-family: Verdana;
+}
+.course{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.btop{
+  color: gray;
+  margin-top: 0px;
+}
+.start-button{
+  background-color: green;
+  border-width: 0px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.start-button:hover{
+  box-shadow: 5px 5px 5px rgba(0,128,0,0.5);
+}
+.start-button:active{
+  box-shadow: 3px 3px 5px rgba(0,128,0,0.5);
+}
