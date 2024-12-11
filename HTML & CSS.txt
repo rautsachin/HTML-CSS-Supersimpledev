@@ -1,0 +1,31 @@
+classname:hover{
+
+}
+classname:active{
+
+}
+opacity: 0.8;
+transition: opacity 0.15s;
+object-fit: cover, contain;
+object-position: center, top, bottom, left, right;
+border-style: solid;
+text-decoration: underline;
+display: inline-block, block, grid, flex;
+vertical-align:	top;
+line-height: 20px;
+grid-template-columns: 100px 1fr;
+flex-direction: row;
+justify-content: start, end, center, space-between;
+align-item: stretch, start, end, center;
+max-width: 300px; 
+
+max-width: 150px;
+
+display:
+display: block, inline-block, inline, grid, flex;
+
+Flex:
+flex-direction: row;
+justify-content: start, end, center, space-between;
+align item: stretch, start, end, center;
+Flex: 1, 2;
