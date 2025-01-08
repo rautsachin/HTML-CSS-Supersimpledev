@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox practice</title>
+  <style>
+    .flexbox-container{
+      display: flex;
+    }
+    .flex1{
+      background-color: lightpink;
+      height: 50px;
+      width: 50px;
+    }
+    .flex2{
+      background-color: lightblue;
+      width: 200px;
+    }
+    .flex2-div1{
+      margin: 0px;
+    }
+    .flex2-div2{
+      margin: 0px;
+      display: flex;
+      justify-content: space-between;
+    }
+    p{
+      margin: 0px;
+    }
+    .div2-row1,
+    .div2-row2{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="flexbox-container">
+    <div class="flex1">
+
+    </div>
+    <div class="flex2">
+      <div class="flex2-div1">
+        <p>row1</p>
+      </div>
+      <div class="flex2-div2">
+        <p class="div2-row1">row2</p>
+        <p class="div2-row2">row2</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
