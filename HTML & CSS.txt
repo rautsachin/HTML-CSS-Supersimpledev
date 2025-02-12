@@ -6,13 +6,14 @@ classname:active{
 }
 opacity: 0.8;
 transition: opacity 0.15s;
-object-fit: cover, contain;
+object-fit: cover, contain; 
 object-position: center, top, bottom, left, right;
 border-style: solid;
 text-decoration: underline;
 display: inline-block, block, grid, flex;
 vertical-align:	top;
-line-height: 20px;
+line-height: 20px; <!-- gap between paragraph line -->
+<!--Grid-->
 grid-template-columns: 100px 1fr;
 flex-direction: row;
 justify-content: start, end, center, space-between;
