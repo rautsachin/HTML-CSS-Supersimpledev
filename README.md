@@ -21,3 +21,7 @@ This repository contains my notes, exercises, and projects from the **SuperSimpl
 1. Clone the repository:  
    ```sh
    git clone https://github.com/rautsachin/HTML-CSS-Supersimpledev.git
+
+## Project Screenshot
+![Portfolio Screenshot](YouTube_Clone.png)
+
